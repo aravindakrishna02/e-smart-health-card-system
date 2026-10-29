@@ -1,0 +1,25 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Environment and secrets (never commit credentials)
+.env
+.env.*
+!.env.example
+secrets/
+credentials.json
+service-account*.json
+
+# Python backend (if added later)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+dist/
+build/
